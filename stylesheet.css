@@ -2,3 +2,7 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.gutterless img {
+	width: 100%;
+}
