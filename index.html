@@ -1,3 +1,7 @@
+---
+donate: https://secure3.convio.net/ala/site/Donation2?idb=420418846&df_id=34875&FR_ID=16142&mfc_pref=T&PROXY_ID=4460699&PROXY_TYPE=20&34875.donation=form1
+---
+
 <!DOCTYPE html>
 <html>
 
@@ -49,7 +53,7 @@
 
 	<div class="collapse navbar-collapse" id="header">
 	  <ul class="nav navbar-nav">
-	    <li><a href="https://secure3.convio.net/ala/site/Donation2?idb=420418846&df_id=34875&FR_ID=16142&mfc_pref=T&PROXY_ID=4460699&PROXY_TYPE=20&34875.donation=form1">Donate</a></li>
+	    <li><a href="{{ page.donate }}">Donate</a></li>
 	    <li class="active"><a href="#">Pictures</a></li>
 	    <li><a href="map.html">Map</a></li>
 	  </ul>
@@ -87,18 +91,7 @@
       <hr>
       <div class="row">
 	<div class="col-xs-4 col-sm-4 col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-sm-offset-4">
-	  <form action="https://secure3.convio.net/ala/site/Donation2">
-	    <input type="hidden" name="idb" value="420418846">
-	    <input type="hidden" name="df_id" value="34875">
-	    <input type="hidden" name="FR_ID" value="16142">
-	    <input type="hidden" name="mfc_pref" value="T">
-	    <input type="hidden" name="PROXY_ID" value="4460699">
-	    <input type="hidden" name="PROXY_TYPE" value="20">
-	    <input type="hidden" name="34875.donation" value="form1">
-	    <div class="form-actions">
-	      <button type="submit" class="btn btn-primary btn-block" style="height: 75px"><h4>Donate</h4></button>
-	    </div>
-	  </form>
+	  <a class="btn btn-primary btn-lg btn-block" role="button" href="{{ page.donate }}">Donate</a>
 	</div>
       </div>
     </div>
